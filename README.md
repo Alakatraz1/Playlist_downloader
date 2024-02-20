@@ -1,40 +1,67 @@
 # YouTube Playlist Downloader
 
-This Python script allows you to download entire YouTube playlists with just the input URL of the playlist. It uses the pytube library to interact with YouTube and the Google Colab environment to mount Google Drive for storing the downloaded videos.
+This Python script enables users to download all videos from a YouTube playlist using the Pytube library. It's particularly useful for archiving or offline viewing purposes. 
 
 Google Colab Notebook:
 You can try out the script in Google Colab by [clicking here](https://colab.research.google.com/drive/1ZrtPaH00PyVvKFR2Bd77HZmbXaSMhun7).
 
+
+## Prerequisites
+
+Before using this script, ensure you have the following installed:
+- Python 3.x
+- Pytube library
+- Google Colab (if running the code in a Colab environment)
+
 ## Usage
 
-1. **Clone Repository**: Clone this repository to your local machine using the following command:
+1. **Clone the Repository:** Clone this repository to your local machine or download the script directly.
 
-   ```bash
-   git clone https://github.com/Alakatraz1/Playlist_downloader.git
-   ```
+    ```
+    git clone https://github.com/example/YouTube-Playlist-Downloader.git
+    ```
 
-2. **Install Dependencies**: Install the required dependencies by running:
+2. **Install Dependencies:** Install the required dependencies by running:
 
-   ```bash
-   pip install pytube
-   ```
+    ```
+    pip install pytube google-colab
+    ```
 
-3. **Run the Script**: Open the Python script (`main.ipynb`) and run it in your preferred Python environment (e.g., Jupyter Notebook, Google Colab, etc.).
+3. **Run the Script:**
+    - Open the script in a Python IDE or text editor.
+    - Input the URL of the YouTube playlist when prompted.
+    - Define the location where you want to save the downloaded videos.
+    - Execute the script.
 
-   ```bash
-   main.ipynb
-   ```
+## Example
 
-4. **Input Playlist URL**: Enter the URL of the YouTube playlist when prompted.
+```python
+python youtube_playlist_downloader.py
+```
 
-5. **Download Location**: The downloaded videos will be saved to your Google Drive. Ensure you have mounted Google Drive in your environment.
+Upon execution, the script will prompt you to enter the URL of the YouTube playlist you want to download. After providing the URL, it will start downloading the videos one by one into the specified location.
 
-## Dependencies
+## How It Works
 
-- pytube
+1. **Mount Google Drive:** This step mounts Google Drive to the Colab environment to facilitate saving the downloaded videos directly to Drive.
 
+2. **Load Playlist:** The script uses Pytube's `Playlist` class to load the playlist from the provided URL.
 
-## Acknowledgments
+3. **Create Save Location:** It creates the specified save location directory if it doesn't exist already.
 
-- The script is built using the pytube library.
-- This project was inspired by the need to download YouTube playlists efficiently.
+4. **Download Videos:** For each video in the playlist, it selects the highest resolution stream available and downloads it to the specified save location.
+
+5. **Completion Message:** Once all videos are downloaded, it prints a completion message.
+
+## Error Handling
+
+The script includes basic error handling to catch exceptions that may occur during the download process and prints out corresponding error messages.
+
+## Note
+
+- This script is designed for educational purposes and personal use only. Respect copyright laws and terms of service of YouTube when downloading videos.
+
+Feel free to contribute to this project by submitting pull requests or opening issues for suggestions and improvements.
+
+---
+*Disclaimer: This script is not affiliated with or endorsed by YouTube.*
