@@ -19,7 +19,7 @@ You can try out the script in Google Colab by [clicking here](https://colab.rese
    pip install pytube
    ```
 
-3. **Run the Script**: Open the Python script (`youtube_playlist_downloader.py`) and run it in your preferred Python environment (e.g., Jupyter Notebook, Google Colab, etc.).
+3. **Run the Script**: Open the Python script (`main.py`) and run it in your preferred Python environment (e.g., Jupyter Notebook, Google Colab, etc.).
 
    ```bash
    main.py
@@ -38,4 +38,3 @@ You can try out the script in Google Colab by [clicking here](https://colab.rese
 
 - The script is built using the pytube library.
 - This project was inspired by the need to download YouTube playlists efficiently.
-```
