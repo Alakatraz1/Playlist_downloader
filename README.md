@@ -19,10 +19,10 @@ You can try out the script in Google Colab by [clicking here](https://colab.rese
    pip install pytube
    ```
 
-3. **Run the Script**: Open the Python script (`main.py`) and run it in your preferred Python environment (e.g., Jupyter Notebook, Google Colab, etc.).
+3. **Run the Script**: Open the Python script (`main.ipynb`) and run it in your preferred Python environment (e.g., Jupyter Notebook, Google Colab, etc.).
 
    ```bash
-   main.py
+   main.ipynb
    ```
 
 4. **Input Playlist URL**: Enter the URL of the YouTube playlist when prompted.
