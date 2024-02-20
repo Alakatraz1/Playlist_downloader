@@ -2,6 +2,9 @@
 
 This Python script allows you to download entire YouTube playlists with just the input URL of the playlist. It uses the pytube library to interact with YouTube and the Google Colab environment to mount Google Drive for storing the downloaded videos.
 
+Google Colab Notebook:
+You can try out the script in Google Colab by [clicking here](https://colab.research.google.com/drive/1ZrtPaH00PyVvKFR2Bd77HZmbXaSMhun7).
+
 ## Usage
 
 1. **Clone Repository**: Clone this repository to your local machine using the following command:
