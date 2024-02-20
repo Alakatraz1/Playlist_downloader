@@ -33,12 +33,6 @@ Before using this script, ensure you have the following installed:
     - Define the location where you want to save the downloaded videos.
     - Execute the script.
 
-## Example
-
-```python
-python youtube_playlist_downloader.py
-```
-
 Upon execution, the script will prompt you to enter the URL of the YouTube playlist you want to download. After providing the URL, it will start downloading the videos one by one into the specified location.
 
 ## How It Works
