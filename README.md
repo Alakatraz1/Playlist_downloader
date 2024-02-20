@@ -18,7 +18,7 @@ Before using this script, ensure you have the following installed:
 1. **Clone the Repository:** Clone this repository to your local machine or download the script directly.
 
     ```
-    git clone https://github.com/example/YouTube-Playlist-Downloader.git
+    git clone https://github.com/Alakatraz1/Playlist_downloader.git
     ```
 
 2. **Install Dependencies:** Install the required dependencies by running:
