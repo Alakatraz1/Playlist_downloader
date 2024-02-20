@@ -19,7 +19,7 @@ This Python script allows you to download entire YouTube playlists with just the
 3. **Run the Script**: Open the Python script (`youtube_playlist_downloader.py`) and run it in your preferred Python environment (e.g., Jupyter Notebook, Google Colab, etc.).
 
    ```bash
-   python youtube_playlist_downloader.py
+   main.py
    ```
 
 4. **Input Playlist URL**: Enter the URL of the YouTube playlist when prompted.
