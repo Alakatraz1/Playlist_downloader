@@ -10,7 +10,7 @@ You can try out the script in Google Colab by [clicking here](https://colab.rese
 1. **Clone Repository**: Clone this repository to your local machine using the following command:
 
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/Alakatraz1/Playlist_downloader.git
    ```
 
 2. **Install Dependencies**: Install the required dependencies by running:
